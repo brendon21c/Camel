@@ -1,6 +1,14 @@
 import string
 
-print ("Fun with words!")
+
+tag = "fun with words"
+
+banner = "*" * len(tag)
+
+print(banner)
+print(tag)
+print(banner)
+
 
 phrase = input("Please enter a phrase or sentence: ")
 
@@ -24,4 +32,3 @@ for x, word in enumerate(words):
 finalString = "".join(newWords)
 
 print (finalString)
-print ("branch display testing!!!")
